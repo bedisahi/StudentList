@@ -26,11 +26,16 @@ public class StudentList {
         Student s5 = new Student();
         s5.setName("Ram");
         
+         Student s6 = new Student();
+        s6.setName("Ram");
+        
         studentList[0] = s1;
         studentList[1] = s2;
         studentList[2] = s3;
         studentList[3]=s4;
         studentList[4]=s5;
+        studentList[5]=s6;
+        
         //this loop is going to run the number of times
         //as same as the elements in the index.
         for(Student s: studentList){
